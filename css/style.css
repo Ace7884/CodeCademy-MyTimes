@@ -28,3 +28,17 @@
 span {
     padding: 20px 10px;
 }
+.content{
+    display:flex;
+    flex-direction: row;
+}
+.column{
+    display:flex;
+    flex-direction: column;
+    border-style:solid;
+    border-color: black;
+}
+.story{
+    border-style:solid;
+    border-color: yellow;
+}
