@@ -17,15 +17,14 @@
 }
 
 #logo{
-    display:flex;
-    justify-self:flex-start;
-    align-items:center;
+    display:inline-flex;
+    align-self:center;
     color:mediumaquamarine;
 }
 #navigation{
     display:inline-block;
+    color:black;
 }   
 span {
-    color:black;
     padding: 20px 10px;
 }
