@@ -1,15 +1,21 @@
-.html{
-    
-}
 .Container{
-
+    display:flex;
 }
 .header{
-
+    font-family: Verdana;
+    font-size: 14px;
+    font-weight: bold;
+    display:flex;
+    justify-content:space-between;
+    border-style: solid;
+    border-color:gray;
+    align-items:center;
 }
 #logo{
-
+    display:flex;
+    align-items:center;
+    color:mediumaquamarine;
 }
 #navigation{
-
+    display:inline-block;
 }
