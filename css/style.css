@@ -41,7 +41,7 @@ span{
 }
 .content{
     display:flex;
-    justify-content: space-between;
+    justify-content:space-between;
     border-style:solid;
     border-color: lightskyblue;
     padding-top:116px;
@@ -51,21 +51,29 @@ span{
     flex-direction:column;
     border-style:solid;
     border-color: black;
-    text-align:left;
-    
+    text-align:left; 
+}
+
+.mainstory{
+    display: block;
+}
+.secondarystories{
+    display:flex;
+    justify-self:space-between; 
+    width: 630px;  
 }
 .story{
-    display:flex;
+    display: flex;
     flex-direction: column;
-    border-style:solid;
-    border-color: lightskyblue;
     font-family: Georgia;
-  font-size: 17px;
-  color: black;
-    margin:0;
-    padding:0;
+    font-size: 17px;
+    color: black;    
 }   
+
+
 .column.large {
+    display: flex;
+    flex-direction: column;
     width: 630px;
   }
   
@@ -87,7 +95,6 @@ span{
 .tuna.story .tuna.image{
     display:flex;
     background-image:url("../img/img-story-main.png");
-    background-position:left;
     font-size: 40px;
     text-align:left;    
 }
