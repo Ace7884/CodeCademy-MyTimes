@@ -1,9 +1,3 @@
-*{
-
-    margin:0;
-    padding:0;
-}
-
 .Container{
     display:flex;
     border-style:solid;
@@ -19,7 +13,6 @@
     z-index:1;
     font-family: Verdana;
     font-size: 14px;
-    color:black;
     font-weight: bold;
     border-style: solid;
     border-color:gray;
@@ -31,7 +24,10 @@
     margin:0;
 }
 span{
-    padding: 20px 10px; 
+    padding: 20px 10px;     
+}
+.navigation a{
+    color:black;
 }
 #logo {
     display:flex; 
@@ -85,31 +81,25 @@ span{
   font-weight: bold;
   font-size: 30px;
   color: white;
-  
+  height:300px;
+  text-align:center;
 }
 .tuna.story .tuna.image{
     display:flex;
     background-image:url("../img/img-story-main.png");
     background-position:left;
     font-size: 40px;
-    text-align:left;
-    background-position:center;
+    text-align:left;    
 }
 .orca.story .earth.image{
     display:flex;
-    background-image:url("../img/img-story-2.png");
-    text-align:center;
-    background-position:center;
+    background-image:url("../img/img-story-2.png");      
 }
 .burger.story .camera.image{
     display:flex;
-    background-image:url("../img/img-story-3.png");
-    text-align:center;
-    background-position:center;
+    background-image:url("../img/img-story-3.png");   
 }
 .cat.story .cat.image{
     display:flex;
     background-image:url("../img/img-story-1.png");
-    text-align:center;
-    background-repeat: no repeat;  
 }
