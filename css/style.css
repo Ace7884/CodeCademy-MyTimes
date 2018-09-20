@@ -85,26 +85,31 @@ span{
   font-weight: bold;
   font-size: 30px;
   color: white;
+  
 }
 .tuna.story .tuna.image{
     display:flex;
     background-image:url("../img/img-story-main.png");
-    background-size: cover;
+    background-position:left;
     font-size: 40px;
     text-align:left;
+    background-position:center;
 }
 .orca.story .earth.image{
     display:flex;
     background-image:url("../img/img-story-2.png");
     text-align:center;
+    background-position:center;
 }
 .burger.story .camera.image{
     display:flex;
     background-image:url("../img/img-story-3.png");
     text-align:center;
+    background-position:center;
 }
 .cat.story .cat.image{
     display:flex;
     background-image:url("../img/img-story-1.png");
     text-align:center;
+    background-repeat: no repeat;  
 }
