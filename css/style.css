@@ -1,45 +1,40 @@
-*{
-    padding: 0;
-    margin:0;
-
-}
-
 .Container{
     display:flex;
     border-style:solid;
     border-color: lightskyblue;
-    
 }
-.header{
-    font-family: Verdana;
-    font-size: 14px;
-    font-weight: bold;
+.header{    
     display:flex;
-    justify-content:space-between;
-    border-style: solid;
-    border-color:gray;
     align-items:center;
-    padding-left: 30px;
-    padding-right: 40px;
-    color:black;
     height:80px;
     width:100%;
     position:fixed;
+    z-index:1;
+    font-family: Verdana;
+    font-size: 14px;
+    font-weight: bold;
+    color:black;
+    border-style: solid;
+    border-color:gray;
+    background-color:white;
 }
 .navigation {
     display:inline-block;
-    padding: 20px 10px;
-    
+    padding: 20px 10px; 
+    padding-right: 40px;
+}
+span{
+    padding: 20px 10px; 
 }
 #logo {
-    display:flex;
-    align-self:center; 
+    display:flex; 
+    align-items: center;
     color:mediumaquamarine;
+    padding-left: 30px;
     flex-grow:1;
     border-style:solid;
     border-color: lightskyblue;
-    z-index:1;
-
+   
 }
 .content{
     display:flex;
@@ -59,8 +54,14 @@
 .story{
     border-style:solid;
     border-color: lightskyblue;
+    font-family: Georgia;
+    font-size: 17px;
+    color: black;
     margin:0;
     padding:0;
+}
+.tuna span{
+    font-size: 40px;
 }
 .column.large {
     width: 630px;
@@ -73,3 +74,6 @@
   .column.small {
     width: 240px;
   }
+.tuna story{
+    background-image:
+}
