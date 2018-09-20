@@ -1,3 +1,9 @@
+*{
+
+    margin:0;
+    padding:0;
+}
+
 .Container{
     display:flex;
     border-style:solid;
@@ -8,20 +14,21 @@
     align-items:center;
     height:80px;
     width:100%;
-    position:fixed;
+    position: fixed;
+    top:0;
     z-index:1;
     font-family: Verdana;
     font-size: 14px;
-    font-weight: bold;
     color:black;
+    font-weight: bold;
     border-style: solid;
     border-color:gray;
     background-color:white;
 }
 .navigation {
-    display:inline-block;
-    padding: 20px 10px; 
+    display:inline-block; 
     padding-right: 40px;
+    margin:0;
 }
 span{
     padding: 20px 10px; 
@@ -52,17 +59,16 @@ span{
     
 }
 .story{
+    display:flex;
+    flex-direction: column;
     border-style:solid;
     border-color: lightskyblue;
     font-family: Georgia;
-    font-size: 17px;
-    color: black;
+  font-size: 17px;
+  color: black;
     margin:0;
     padding:0;
-}
-.tuna span{
-    font-size: 40px;
-}
+}   
 .column.large {
     width: 630px;
   }
@@ -74,6 +80,16 @@ span{
   .column.small {
     width: 240px;
   }
-.tuna story{
-    background-image:
+ .image{
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+}s
+.tuna.story .tuna.image{
+    display:flex;
+    background-image:url("../img/img-story-main.png");
+    background-size: cover;
+    font-size: 40px;
+    text-align:left;
 }
