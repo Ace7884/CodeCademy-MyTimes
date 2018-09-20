@@ -1,7 +1,5 @@
 .Container{
     display:flex;
-    border-style:solid;
-    border-color: lightskyblue;
 }
 .header{    
     display:flex;
@@ -34,29 +32,22 @@ span{
     align-items: center;
     color:mediumaquamarine;
     padding-left: 30px;
-    flex-grow:1;
-    border-style:solid;
-    border-color: lightskyblue;
-   
+    flex-grow:1;  
 }
 .content{
     display:flex;
     justify-content:space-between;
-    border-style:solid;
-    border-color: lightskyblue;
     padding-top:116px;
     margin-top:17px;
 }
 .column{
     display:flex;
     flex-direction:column;
-    border-style:solid;
-    border-color: black;
     text-align:left; 
 }
-
 .mainstory{
     display: block;
+    margin-top:-15px;
 }
 .secondarystories{
     display:flex;
@@ -70,27 +61,25 @@ span{
     font-family: Georgia;
     font-size: 17px;
     color: black; 
-    border-style:solid;
-    border-color: lightskyblue;
 }   
 .orca.story, .burger.story{
+    display:flex;
     align-content: flex-start;
     justify-items: space-between;
+    flex-shrink:1;
     width:300px;
-
-   
 }
-
+.text{
+    height:250px ;
+}
 .column.large {
     display: flex;
     flex-direction: column;
     width: 630px;
   }
-  
   .column.medium {
     width: 300px;
   }
-  
   .column.small {
     width: 240px;
   }
@@ -98,6 +87,7 @@ span{
   font-family: Georgia;
   font-weight: bold;
   font-size: 30px;
+  margin-top:15px;
   color: white;
   height:300px;
 }
@@ -119,6 +109,6 @@ span{
     display:flex;
     background-image:url("../img/img-story-1.png");
 }
-p{siplay:block;
-
+p{
+    display:block;
 }
