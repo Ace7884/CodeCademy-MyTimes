@@ -26,11 +26,9 @@
     margin:0;
 }
 span{
-    padding: 20px 10px;     
+    padding: 10px 20px;     
 }
-.navigation a{
-    color:black;
-}
+
 #logo {
     display:flex; 
     align-items: center;
@@ -43,6 +41,7 @@ span{
     justify-content:space-between;
     padding-top:116px;
     margin-top:17px;
+    padding-bottom:80px;
 }
 .column{
     display:flex;
@@ -123,6 +122,9 @@ span{
     display:flex;
     background-image:url("../img/img-story-1.png");
 }
+a{
+    color:black;
+}
 
 .text{
     height:250px ;
@@ -137,22 +139,39 @@ h3{
     margin-bottom: 41px;
 }
 .footer{
- display:flex;
- flex-direction:column;
- justify-content:center; 
- align-items:center;
- background-color:MediumAquamarine;
- margin: auto;
- font-family: Verdana;
- font-size: 12px;
- width:100%;
- height:325px;
+    display:flex;
+    flex-direction:column;
+    justify-content:center; 
+    align-items:center;
+    background-color:MediumAquamarine;
+    margin: auto;
+    font-family: Verdana;
+    font-size: 12px;
+    width:100%;
+    height:325px;
+    margin:0;
 }
-
-.footer .information{
+.information{
+   display:block;
+   padding:25px;
+}    
+#title{
+    display: inline-block;
     font-family: Georgia;
-  font-size: 16px;
-  font-weight: bold;
-  color: white;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    border-right: 2px solid white;
+    padding: 0 25px 0 0;
+}
+.bottomNav{
+    display:inline-block;
+    padding-left:25px;
+}
+.bottomNav span{
+    padding: 0 10px;
+}
+.copyright{
+    padding:20px;
 
 }
